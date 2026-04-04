@@ -47,6 +47,7 @@ p {
     color: white;
     column-gap: 5rem;
     align-items: stretch;
+    padding-bottom: 7rem;
 }
 .hero h1 {
     font-size: 48px;
@@ -55,7 +56,7 @@ p {
 .hero .left-division{
     display: flex;
     flex-direction: column;
-    padding-bottom: 10rem;
+    justify-content: center;
 }
 
 .hero .left-division p {
@@ -71,6 +72,7 @@ p {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 18px;
+    font-weight: 600;
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
@@ -79,8 +81,9 @@ p {
 
 .hero .right-division img{
     border-radius: 8px;
-    max-width: 500px;
-    max-height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .section-01 {
@@ -88,14 +91,129 @@ p {
     font-size: 24px;
     font-weight: 900;
     color: #1F2937;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
+
 }
 
+/* Section 1 */
 .section-01 h2{
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .section-01 .information-container{
-
+    display:flex;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    gap: 3rem;
 }
 
+.section-01 .infobox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.section-01 .infobox .roundedbox {
+    outline: 3px solid #3882F6;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.section-01 .infobox p {
+    width: 10rem;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 0.5rem;
+}
+
+/* Section 2*/
+.section-02 {
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    padding-left: 18rem;
+    padding-right: 16rem;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.section-02 .author {
+    align-self: flex-end;
+    padding-top: 1rem;
+    padding-right: 7rem;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+/* Section 3*/
+.section-03 {
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.section-03 .cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+}
+
+.section-03 .cta button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.section-03 .cta .left-div{
+    color: white;
+}
+
+.section-03 .cta .left-div h4{
+    font-size: 24px;
+}
+.section-03 .cta .left-div p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section-03 .cta .right-div{
+    align-self: center;
+}
+
+/* Footer */
+.footer {
+    background: #1F2937;
+    color: white;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
