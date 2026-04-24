@@ -12,7 +12,7 @@ p {
 }
 
 /* Header Section */
-.header {
+header nav{
     background-color: #1F2937;
     display: flex;
     justify-content: flex-end;
@@ -24,13 +24,13 @@ p {
     padding-right: 15rem;
 }
 
-.header a {
+header nav a {
     text-decoration: none;
     color: lightgrey;
     font-size: 18px;
 }
 
-.header .header-logo{
+header nav .header-logo{
     margin-right: auto;
     color: white;
     font-size: 24px;
@@ -209,7 +209,7 @@ p {
 }
 
 /* Footer */
-.footer {
+footer {
     background: #1F2937;
     color: white;
     font-weight: 300;
